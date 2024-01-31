@@ -1,0 +1,27 @@
+>
+create git repo
+
+create git ignore file 
+>
+.gitignore
+
+add filenames or folders to be ignored
+>
+./venv
+./py_daily.txt
+
+GIT ADD ALL
+>
+git add .
+
+GIT COMMIT
+>
+git commit -m "first commit"
+
+GIT BRANCH
+>
+git brnach -M main
+
+GIT PUSH
+>
+git push -u origin main
