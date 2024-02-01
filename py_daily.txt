@@ -20,7 +20,7 @@ git commit -m "first commit"
 
 GIT BRANCH
 >
-git brnach -M main
+git branch -M main
 
 GIT PUSH
 >
