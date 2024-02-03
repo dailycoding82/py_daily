@@ -18,8 +18,8 @@ if playing.lower() != "yes":
 print("Okay! Let's play : )")
 score = 0
 
-answer = input("Spell the color 'red'? ")
-if answer == "red":
+answer = input("What does CPU stands for? ")
+if answer == "central processing unit":
     print("Correct!")
     score += 1
 else:
@@ -48,7 +48,11 @@ else:
 
 
 print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+# print("You got " + str((score / 4) * 100) + "%.")
+
+# setting 2 decimals
+print(f"You got {(score / 4) * 100:.2f} %.")
+
 
 """
 IMPROVEMENT NOTES:
