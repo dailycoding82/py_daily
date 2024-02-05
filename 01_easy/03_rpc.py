@@ -7,7 +7,7 @@ computer_wins = 0
 options = ["rock", "paper", "scissors"]
 
 while True:
-    user_input = input("Type Rock/Papaer/Scissors or Q to quit: ").lower()
+    user_input = input("Type Rock/Paper/Scissors or Q to quit: ").lower()
     if user_input == "q":
         print("Okay, see you again next time!")
         break
@@ -22,15 +22,15 @@ while True:
     print("Computer picked: ", computer_pick + ".")
 
     if user_input == "rock" and computer_pick == "scissors":
-        print("You won!.")
+        print("You won!")
         user_wins += 1
 
     elif user_input == "paper" and computer_pick == "rock":
-        print("You won!.")
+        print("You won!")
         user_wins += 1
 
     elif user_input == "scissors" and computer_pick == "paper":
-        print("You won!.")
+        print("You won!")
         user_wins += 1
 
     else:
@@ -48,3 +48,10 @@ else:
     print("Computer wins", computer_wins, "times.")
 
 print("Goodbye!")
+
+
+"""
+Ideas for improvement:
+- Add score limit 
+- add game over message if score limit is reach
+"""
